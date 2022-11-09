@@ -26,7 +26,9 @@ CREATE TABLE `authors` (
 ) ENGINE=InnoDB AUTO_INCREMENT=193 DEFAULT CHARSET=utf8;
 ```
 ![tablatrasaction](./images/Tabla%20authors.png)
+
 **Tabla books**
+
 ```sql
 CREATE TABLE `books` (
   `book_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -44,6 +46,7 @@ CREATE TABLE `books` (
 ) ENGINE=InnoDB AUTO_INCREMENT=199 DEFAULT CHARSET=utf8;
 ```
 ![tablatrasaction](./images/Tabla%20authores.png)
+
 **Tabla clients**
 ```sql
 CREATE TABLE `clients` (
@@ -59,6 +62,7 @@ CREATE TABLE `clients` (
 ) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
 ```
 ![tablatrasaction](./images/tabla%20clients.png)
+
 **Tabla admin**
 ```sql
 CREATE TABLE `admin` (
@@ -73,6 +77,7 @@ CREATE TABLE `admin` (
 ) ENGINE=InnoDB AUTO_INCREMENT=101 DEFAULT CHARSET=utf8;
 ```
 ![tablatrasaction](./images/Tabla%20admin.png)
+
 **Tabla Trnsactions**
 ```sql
 CREATE TABLE `transactions` (
